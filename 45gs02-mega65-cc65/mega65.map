@@ -1,0 +1,2126 @@
+Modules list:
+-------------
+clock-arch.o:
+    CODE              Offs=000000  Size=000008  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+main.o:
+    CODE              Offs=000008  Size=00037D  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=00010D  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+mega65ethdev.o:
+    CODE              Offs=000385  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=00010D  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000002  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000002  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+psock.o:
+    CODE              Offs=00038F  Size=000C52  Align=00001  Fill=0000
+    RODATA            Offs=00010D  Size=000014  Align=00001  Fill=0000
+    BSS               Offs=000002  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+timer.o:
+    CODE              Offs=000FE1  Size=000096  Align=00001  Fill=0000
+    RODATA            Offs=000121  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=000002  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+uip-fw.o:
+    CODE              Offs=001077  Size=0006F0  Align=00001  Fill=0000
+    RODATA            Offs=000121  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=000002  Size=00001C  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000004  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+uip-neighbor.o:
+    CODE              Offs=001767  Size=000432  Align=00001  Fill=0000
+    RODATA            Offs=000121  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00001E  Size=000058  Align=00001  Fill=0000
+    DATA              Offs=000006  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+uip.o:
+    CODE              Offs=001B99  Size=00280F  Align=00001  Fill=0000
+    RODATA            Offs=000121  Size=00016C  Align=00001  Fill=0000
+    BSS               Offs=000076  Size=004281  Align=00001  Fill=0000
+    DATA              Offs=000006  Size=000006  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+uip_arp.o:
+    CODE              Offs=0043A8  Size=000881  Align=00001  Fill=0000
+    RODATA            Offs=00028D  Size=00000A  Align=00001  Fill=0000
+    BSS               Offs=0042F7  Size=000060  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+uiplib.o:
+    CODE              Offs=004C29  Size=00016E  Align=00001  Fill=0000
+    RODATA            Offs=000297  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=004357  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+webclient-strings.o:
+    CODE              Offs=004D97  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=000297  Size=0001C3  Align=00001  Fill=0000
+    BSS               Offs=004357  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+webclient.o:
+    CODE              Offs=004D97  Size=000ABA  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=004357  Size=000185  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(add.o):
+    CODE              Offs=005851  Size=00001C  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(addeqsp.o):
+    CODE              Offs=00586D  Size=000011  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(addysp.o):
+    CODE              Offs=00587E  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(and.o):
+    CODE              Offs=00588C  Size=000010  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(aslax1.o):
+    CODE              Offs=00589C  Size=000008  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(aslax2.o):
+    CODE              Offs=0058A4  Size=00000B  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(asrax2.o):
+    CODE              Offs=0058AF  Size=00000F  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(asrax3.o):
+    CODE              Offs=0058BE  Size=000014  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(asrax4.o):
+    CODE              Offs=0058D2  Size=000019  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(bneg.o):
+    CODE              Offs=0058EB  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(call.o):
+    CODE              Offs=0058F9  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(callmain.o):
+    CODE              Offs=005900  Size=000017  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=00000C  Size=000004  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(compl.o):
+    CODE              Offs=005917  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000010  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(condes.o):
+    CODE              Offs=005920  Size=00000C  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000010  Size=000025  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(crt0.o):
+    CODE              Offs=00592C  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=000033  Align=00001  Fill=0000
+    ONCE              Offs=00000C  Size=00001A  Align=00001  Fill=0000
+    INIT              Offs=000000  Size=00001C  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(decax1.o):
+    CODE              Offs=00592C  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(decax5.o):
+    CODE              Offs=005933  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(decax7.o):
+    CODE              Offs=00593A  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(decaxy.o):
+    CODE              Offs=005941  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(decsp1.o):
+    CODE              Offs=00594A  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(decsp2.o):
+    CODE              Offs=005953  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(decsp4.o):
+    CODE              Offs=005960  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(decsp5.o):
+    CODE              Offs=00596D  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(decsp6.o):
+    CODE              Offs=00597A  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(enter.o):
+    CODE              Offs=005987  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(eq.o):
+    CODE              Offs=005995  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(exehdr.o):
+    CODE              Offs=00599F  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    EXEHDR            Offs=000000  Size=00000C  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(ge.o):
+    CODE              Offs=00599F  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(icmp.o):
+    CODE              Offs=0059A9  Size=00002E  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incax1.o):
+    CODE              Offs=0059D7  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incax2.o):
+    CODE              Offs=0059DE  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incax6.o):
+    CODE              Offs=0059E5  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incax8.o):
+    CODE              Offs=0059EA  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incaxy.o):
+    CODE              Offs=0059EF  Size=00000B  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incsp1.o):
+    CODE              Offs=0059FA  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incsp2.o):
+    CODE              Offs=005A01  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incsp3.o):
+    CODE              Offs=005A17  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incsp4.o):
+    CODE              Offs=005A1C  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incsp5.o):
+    CODE              Offs=005A21  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incsp6.o):
+    CODE              Offs=005A26  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(incsp8.o):
+    CODE              Offs=005A2B  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(jmpvec.o):
+    CODE              Offs=005A30  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000035  Size=000003  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(kernal.o):
+    CODE              Offs=005A30  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(ldaui.o):
+    CODE              Offs=005A30  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(ldaxi.o):
+    CODE              Offs=005A39  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(ldaxsp.o):
+    CODE              Offs=005A46  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(leaaxsp.o):
+    CODE              Offs=005A4F  Size=00000C  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(leave.o):
+    CODE              Offs=005A5B  Size=00001D  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(loadaddr.o):
+    CODE              Offs=005A78  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    LOADADDR          Offs=000000  Size=000002  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(makebool.o):
+    CODE              Offs=005A78  Size=00002C  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(memcpy.o):
+    CODE              Offs=005AA4  Size=00003C  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(memset.o):
+    CODE              Offs=005AE0  Size=00005D  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(mul.o):
+    CODE              Offs=005B3D  Size=000045  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(mul8.o):
+    CODE              Offs=005B82  Size=00003A  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(mulax10.o):
+    CODE              Offs=005BBC  Size=000019  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(ne.o):
+    CODE              Offs=005BD5  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(negabs.o):
+    CODE              Offs=005BDF  Size=000012  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(or.o):
+    CODE              Offs=005BF1  Size=000012  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(popptr1.o):
+    CODE              Offs=005C03  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(pusha.o):
+    CODE              Offs=005C11  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(pushax.o):
+    CODE              Offs=005C27  Size=00001A  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(return0.o):
+    CODE              Offs=005C41  Size=000004  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(shl.o):
+    CODE              Offs=005C45  Size=000033  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(staspidx.o):
+    CODE              Offs=005C78  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(status.o):
+    CODE              Offs=005C8E  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(staxsp.o):
+    CODE              Offs=005C8E  Size=00000B  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(staxspi.o):
+    CODE              Offs=005C99  Size=00001B  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(strchr.o):
+    CODE              Offs=005CB4  Size=000027  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(strlen.o):
+    CODE              Offs=005CDB  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(strncmp.o):
+    CODE              Offs=005CF1  Size=000039  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(strncpy.o):
+    CODE              Offs=005D2A  Size=000044  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(sub.o):
+    CODE              Offs=005D6E  Size=000015  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(subeqsp.o):
+    CODE              Offs=005D83  Size=000015  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(subysp.o):
+    CODE              Offs=005D98  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(ugt.o):
+    CODE              Offs=005DA5  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(ule.o):
+    CODE              Offs=005DAF  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(ult.o):
+    CODE              Offs=005DB9  Size=000008  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(zerobss.o):
+    CODE              Offs=005DC1  Size=000023  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/home/paul/Projects/mega65/cc65/lib/c64.lib(zeropage.o):
+    CODE              Offs=005DE4  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=00045A  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0044DC  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000038  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+NULL                  000000  000000  000000  00001
+ZEROPAGE              000002  00001B  00001A  00001
+LOADADDR              0007FF  000800  000002  00001
+EXEHDR                000801  00080C  00000C  00001
+STARTUP               00080D  00083F  000033  00001
+CODE                  000840  006623  005DE4  00001
+RODATA                006624  006A7D  00045A  00001
+DATA                  006A7E  006AB5  000038  00001
+INIT                  006AB6  006AD1  00001C  00001
+BSS                   006AD2  00AFAD  0044DC  00001
+ONCE                  006AD2  006AF7  000026  00001
+
+
+Exports list by name:
+---------------------
+ACPTR                     00FFA5  LA    BASIN                     00FFCF  LA    
+BSOUT                     00FFD2 RLA    CHKIN                     00FFC6  LA    
+CINT                      00FF81  LA    CIOUT                     00FFA8  LA    
+CKOUT                     00FFC9  LA    CLALL                     00FFE7  LA    
+CLOSE                     00FFC3  LA    CLRCH                     00FFCC  LA    
+GETIN                     00FFE4  LA    IOBASE                    00FFF3  LA    
+IOINIT                    00FF84  LA    LISTEN                    00FFB1  LA    
+LOAD                      00FFD5  LA    MEMBOT                    00FF9C  LA    
+MEMTOP                    00FF99  LA    OPEN                      00FFC0  LA    
+RAMTAS                    00FF87  LA    RDTIM                     00FFDE  LA    
+READST                    00FFB7  LA    RESTOR                    00FF8A  LA    
+SAVE                      00FFD8  LA    SCNKEY                    00FF9F  LA    
+SCREEN                    00FFED  LA    SECOND                    00FF93  LA    
+SETLFS                    00FFBA  LA    SETMSG                    00FF90  LA    
+SETNAM                    00FFBD  LA    SETTIM                    00FFDB  LA    
+SETTMO                    00FFA2  LA    ST                        000090 RLZ    
+STOP                      00FFE1  LA    TALK                      00FFB4  LA    
+TKSA                      00FF96  LA    UDTIM                     00FFEA  LA    
+UNLSN                     00FFAE  LA    UNTLK                     00FFAB  LA    
+VECTOR                    00FF8D  LA    __BSS_LOAD__              006AD2  LA    
+__BSS_RUN__               006AD2 RLA    __BSS_SIZE__              0044DC REA    
+__CONSTRUCTOR_COUNT__     000000 REA    __CONSTRUCTOR_TABLE__     006AF8 RLA    
+__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      006A7E RLA    
+__EXEHDR__                000001 REA    __HEADER_FILEOFFS__       000002  EA    
+__HEADER_LAST__           00080D RLA    __HEADER_SIZE__           00000D  EA    
+__HEADER_START__          000801  LA    __HIMEM__                 00D000 REA    
+__LOADADDR__              000001 REA    __MAIN_FILEOFFS__         00000E  EA    
+__MAIN_LAST__             006AF8  LA    __MAIN_SIZE__             00C7F3 REA    
+__MAIN_START__            00080D RLA    __ONCE_LOAD__             006AD2  LA    
+__ONCE_RUN__              006AD2 RLA    __ONCE_SIZE__             000026  EA    
+__STACKSIZE__             000800 REA    __STARTUP__               000001 REA    
+__ZP_FILEOFFS__           000000  EA    __ZP_LAST__               00001C  LA    
+__ZP_SIZE__               00001A  EA    __ZP_START__              000002  LA    
+__argc                    006A8A  LA    __argv                    006A8C  LA    
+__bzero                   006320 RLA    _abs                      00641F  LA    
+_bzero                    006320  LA    _clock_time               000840 RLA    
+_exit                     000825  LA    _htons                    00289C RLA    
+_http_10                  0068D7 RLA    _http_11                  0068E0 RLA    
+_http_200                 0068C3 RLA    _http_301                 0068C8 RLA    
+_http_302                 0068CD RLA    _http_404_html            006923  LA    
+_http_content_type        0068E9 RLA    _http_content_type_binary 0069D5  LA    
+_http_content_type_css    006949  LA    _http_content_type_gif    00699C  LA    
+_http_content_type_html   00692D  LA    _http_content_type_jpg    0069B8  LA    
+_http_content_type_png    006980  LA    _http_content_type_text   006964  LA    
+_http_crnl                006914 RLA    _http_css                 006A12  LA    
+_http_get                 0068D2 RLA    _http_gif                 006A1C  LA    
+_http_host                00690D RLA    _http_htm                 006A0D  LA    
+_http_html                006A00  LA    _http_http                0068BB RLA    
+_http_index_html          006917  LA    _http_jpg                 006A21  LA    
+_http_location            006902 RLA    _http_png                 006A17  LA    
+_http_shtml               006A06  LA    _http_text                006A26  LA    
+_http_texthtml            0068F8  LA    _http_txt                 006A2C  LA    
+_http_user_agent_fields   006A31 RLA    _main                     0008B9 RLA    
+_mega65ethdev_init        000BC5 RLA    _mega65ethdev_read        000BC6 RLA    
+_mega65ethdev_send        000BCE RLA    _memcpy                   0062E4 RLA    
+_memset                   006328 RLA    _printf                   0008B2 RLA    
+_psock_datalen            0011FF  LA    _psock_generator_send     000D7A  LA    
+_psock_init               000BCF  LA    _psock_newdata            001223  LA    
+_psock_readbuf            000EEB  LA    _psock_readto             00107A  LA    
+_psock_send               000C5B  LA    _resolv_found             000B17  LA    
+_smtp_done                000BA9  LA    _strchr                   0064F4 RLA    
+_strlen                   00651B RLA    _strncmp                  006531 RLA    
+_strncpy                  00656A RLA    _timer_expired            00188A RLA    
+_timer_reset              00184A RLA    _timer_restart            001873  LA    
+_timer_set                001821 RLA    _uip_acc32                00AD2C  LA    
+_uip_add32                004907  LA    _uip_appdata              006CEE RLA    
+_uip_arp_arpin            004C2F RLA    _uip_arp_init             004BE8  LA    
+_uip_arp_out              004DE8 RLA    _uip_arp_timer            00510D RLA    
+_uip_buf                  006B48 RLA    _uip_chksum               00488B RLA    
+_uip_conn                 006CF2 RLA    _uip_connect              002560 RLA    
+_uip_conns                006CF4 RLA    _uip_draddr               00AD65 RLA    
+_uip_ethaddr              006A84 RLA    _uip_flags                00AD5C RLA    
+_uip_fw_default           001B92  LA    _uip_fw_forward           001909  LA    
+_uip_fw_init              0018B7  LA    _uip_fw_output            001B16  LA    
+_uip_fw_periodic          001BA4  LA    _uip_fw_register          001B6D  LA    
+_uip_hostaddr             00AD5D RLA    _uip_init                 0023D9 RLA    
+_uip_ipchksum             0048AF RLA    _uip_len                  006CF0 RLA    
+_uip_listen               00247F  LA    _uip_listenports          00AD6D  LA    
+_uip_log                  000897 RLA    _uip_neighbor_add         002003  LA    
+_uip_neighbor_init        001FA7  LA    _uip_neighbor_lookup      002241  LA    
+_uip_neighbor_periodic    00227D  LA    _uip_neighbor_update      002206  LA    
+_uip_netmask              00AD61 RLA    _uip_process              0028BA RLA    
+_uip_sappdata             00AD69  LA    _uip_send                 002841 RLA    
+_uip_setipid              00246D  LA    _uip_slen                 00AD6B  LA    
+_uip_stat                 00AD30  LA    _uip_tcpchksum            0048F5  LA    
+_uip_udpchksum            0048FE  LA    _uip_unlisten             0024EF  LA    
+_uiplib_ipaddrconv        005469 RLA    _webclient_aborted        00087D RLA    
+_webclient_appcall        00569B RLA    _webclient_close          005693  LA    
+_webclient_closed         00088A RLA    _webclient_connected      000863 RLA    
+_webclient_datahandler    000848 RLA    _webclient_filename       005818  LA    
+_webclient_get            0055D8  LA    _webclient_hostname       005820  LA    
+_webclient_init           0055D7  LA    _webclient_mimetype       005810  LA    
+_webclient_port           005828  LA    _webclient_timedout       000870 RLA    
+addeq0sp                  0060AD  LA    addeqysp                  0060AF RLA    
+addysp                    0060BF RLA    addysp1                   0060BE RLA    
+aslax1                    0060DC RLA    aslax2                    0060E4 RLA    
+aslaxy                    00648C  LA    asrax2                    0060EF RLA    
+asrax3                    0060FE RLA    asrax4                    006112 RLA    
+bnega                     00612F RLA    bnegax                    00612B RLA    
+booleq                    0062BE RLA    boolge                    0062CF RLA    
+boolgt                    0062CD  LA    boolle                    0062C5  LA    
+boollt                    0062C7  LA    boolne                    0062B8 RLA    
+booluge                   0062DF  LA    boolugt                   0062DD RLA    
+boolule                   0062D5 RLA    boolult                   0062D7 RLA    
+callax                    006139 RLA    callmain                  006140 RLA    
+complax                   006157 RLA    condes                    006A8E  LA    
+decax1                    00616C RLA    decax5                    006173 RLA    
+decax7                    00617A RLA    decaxy                    006181 RLA    
+decsp1                    00618A RLA    decsp2                    006193 RLA    
+decsp4                    0061A0 RLA    decsp5                    0061AD RLA    
+decsp6                    0061BA RLA    donelib                   006160 RLA    
+enter                     0061C7 RLA    incax1                    006217 RLA    
+incax2                    00621E RLA    incax4                    00622F RLA    
+incax6                    006225 RLA    incax8                    00622A RLA    
+incaxy                    006231 RLA    incsp1                    00623A RLA    
+incsp2                    006249 RLA    incsp3                    006257 RLA    
+incsp4                    00625C RLA    incsp5                    006261 RLA    
+incsp6                    006266 RLA    incsp8                    00626B RLA    
+initlib                   006AD2 RLA    jmpvec                    006AB3 RLA    
+ldauidx                   006270 RLA    ldax0sp                   006286  LA    
+ldaxi                     006279  LA    ldaxidx                   00627B RLA    
+ldaxysp                   006288 RLA    leaa0sp                   00628F RLA    
+leaaxsp                   006291  LA    leave                     0062A8 RLA    
+leave0                    00629D  LA    leave00                   00629B  LA    
+leavey                    0062A5  LA    leavey0                   0062A3  LA    
+leavey00                  0062A1  LA    memcpy_getparams          00630D  LA    
+memcpy_upwards            0062E7  LA    mul8x16                   0063C4 RLA    
+mul8x16a                  0063CE RLA    mulax10                   0063FC RLA    
+negax                     006423 RLA    popax                     006241 RLA    
+popptr1                   006443 RLA    ptr1                      00000A RLZ    
+ptr2                      00000C RLZ    ptr3                      00000E RLZ    
+ptr4                      000010 RLZ    push0                     006467  LA    
+pusha                     006455 RLA    pusha0                    006469  LA    
+pusha0sp                  006451  LA    pushax                    00646B RLA    
+pushaysp                  006453  LA    regbank                   000016  LZ    
+regsave                   000006 RLZ    return0                   006481 RLA    
+shlax1                    0060DC  LA    shlax2                    0060E4  LA    
+shlaxy                    00648C  LA    sp                        000002 RLZ    
+sreg                      000004 RLZ    staspidx                  0064B8 RLA    
+stax0sp                   0064CE  LA    staxspidx                 0064D9 RLA    
+staxysp                   0064D0 RLA    subeq0sp                  0065C3  LA    
+subeqysp                  0065C5 RLA    subysp                    0065D8 RLA    
+tmp1                      000012 RLZ    tmp2                      000013 RLZ    
+tmp3                      000014 RLZ    tmp4                      000015  LZ    
+tosadda0                  006091  LA    tosaddax                  006093 RLA    
+tosanda0                  0060CC  LA    tosandax                  0060CE RLA    
+tosaslax                  006485 RLA    toseq00                   0061D5  LA    
+toseqa0                   0061D7  LA    toseqax                   0061D9 RLA    
+tosge00                   0061DF  LA    tosgea0                   0061E1  LA    
+tosgeax                   0061E3 RLA    tosicmp                   0061EB RLA    
+tosicmp0                  0061E9  LA    tosmula0                  0063C2  LA    
+tosmulax                  00637D RLA    tosne00                   006415  LA    
+tosnea0                   006417  LA    tosneax                   006419 RLA    
+tosora0                   006431  LA    tosorax                   006433 RLA    
+tosshlax                  006485  LA    tossuba0                  0065AE  LA    
+tossubax                  0065B0 RLA    tosugt00                  0065E5  LA    
+tosugta0                  0065E7  LA    tosugtax                  0065E9 RLA    
+tosule00                  0065EF  LA    tosulea0                  0065F1  LA    
+tosuleax                  0065F3 RLA    tosult00                  006481  EA    
+tosulta0                  0065F9  LA    tosultax                  0065FB RLA    
+tosumula0                 0063C2  LA    tosumulax                 00637D  LA    
+zerobss                   006601 RLA    
+
+
+Exports list by value:
+----------------------
+__CONSTRUCTOR_COUNT__     000000 REA    __DESTRUCTOR_COUNT__      000000 REA    
+__ZP_FILEOFFS__           000000  EA    __EXEHDR__                000001 REA    
+__LOADADDR__              000001 REA    __STARTUP__               000001 REA    
+__HEADER_FILEOFFS__       000002  EA    __ZP_START__              000002  LA    
+sp                        000002 RLZ    sreg                      000004 RLZ    
+regsave                   000006 RLZ    ptr1                      00000A RLZ    
+ptr2                      00000C RLZ    __HEADER_SIZE__           00000D  EA    
+__MAIN_FILEOFFS__         00000E  EA    ptr3                      00000E RLZ    
+ptr4                      000010 RLZ    tmp1                      000012 RLZ    
+tmp2                      000013 RLZ    tmp3                      000014 RLZ    
+tmp4                      000015  LZ    regbank                   000016  LZ    
+__ZP_SIZE__               00001A  EA    __ZP_LAST__               00001C  LA    
+__ONCE_SIZE__             000026  EA    ST                        000090 RLZ    
+__STACKSIZE__             000800 REA    __HEADER_START__          000801  LA    
+__HEADER_LAST__           00080D RLA    __MAIN_START__            00080D RLA    
+_exit                     000825  LA    _clock_time               000840 RLA    
+_webclient_datahandler    000848 RLA    _webclient_connected      000863 RLA    
+_webclient_timedout       000870 RLA    _webclient_aborted        00087D RLA    
+_webclient_closed         00088A RLA    _uip_log                  000897 RLA    
+_printf                   0008B2 RLA    _main                     0008B9 RLA    
+_resolv_found             000B17  LA    _smtp_done                000BA9  LA    
+_mega65ethdev_init        000BC5 RLA    _mega65ethdev_read        000BC6 RLA    
+_mega65ethdev_send        000BCE RLA    _psock_init               000BCF  LA    
+_psock_send               000C5B  LA    _psock_generator_send     000D7A  LA    
+_psock_readbuf            000EEB  LA    _psock_readto             00107A  LA    
+_psock_datalen            0011FF  LA    _psock_newdata            001223  LA    
+_timer_set                001821 RLA    _timer_reset              00184A RLA    
+_timer_restart            001873  LA    _timer_expired            00188A RLA    
+_uip_fw_init              0018B7  LA    _uip_fw_forward           001909  LA    
+_uip_fw_output            001B16  LA    _uip_fw_register          001B6D  LA    
+_uip_fw_default           001B92  LA    _uip_fw_periodic          001BA4  LA    
+_uip_neighbor_init        001FA7  LA    _uip_neighbor_add         002003  LA    
+_uip_neighbor_update      002206  LA    _uip_neighbor_lookup      002241  LA    
+_uip_neighbor_periodic    00227D  LA    _uip_init                 0023D9 RLA    
+_uip_setipid              00246D  LA    _uip_listen               00247F  LA    
+_uip_unlisten             0024EF  LA    _uip_connect              002560 RLA    
+_uip_send                 002841 RLA    _htons                    00289C RLA    
+_uip_process              0028BA RLA    __BSS_SIZE__              0044DC REA    
+_uip_chksum               00488B RLA    _uip_ipchksum             0048AF RLA    
+_uip_tcpchksum            0048F5  LA    _uip_udpchksum            0048FE  LA    
+_uip_add32                004907  LA    _uip_arp_init             004BE8  LA    
+_uip_arp_arpin            004C2F RLA    _uip_arp_out              004DE8 RLA    
+_uip_arp_timer            00510D RLA    _uiplib_ipaddrconv        005469 RLA    
+_webclient_init           0055D7  LA    _webclient_get            0055D8  LA    
+_webclient_close          005693  LA    _webclient_appcall        00569B RLA    
+_webclient_mimetype       005810  LA    _webclient_filename       005818  LA    
+_webclient_hostname       005820  LA    _webclient_port           005828  LA    
+tosadda0                  006091  LA    tosaddax                  006093 RLA    
+addeq0sp                  0060AD  LA    addeqysp                  0060AF RLA    
+addysp1                   0060BE RLA    addysp                    0060BF RLA    
+tosanda0                  0060CC  LA    tosandax                  0060CE RLA    
+aslax1                    0060DC RLA    shlax1                    0060DC  LA    
+aslax2                    0060E4 RLA    shlax2                    0060E4  LA    
+asrax2                    0060EF RLA    asrax3                    0060FE RLA    
+asrax4                    006112 RLA    bnegax                    00612B RLA    
+bnega                     00612F RLA    callax                    006139 RLA    
+callmain                  006140 RLA    complax                   006157 RLA    
+donelib                   006160 RLA    decax1                    00616C RLA    
+decax5                    006173 RLA    decax7                    00617A RLA    
+decaxy                    006181 RLA    decsp1                    00618A RLA    
+decsp2                    006193 RLA    decsp4                    0061A0 RLA    
+decsp5                    0061AD RLA    decsp6                    0061BA RLA    
+enter                     0061C7 RLA    toseq00                   0061D5  LA    
+toseqa0                   0061D7  LA    toseqax                   0061D9 RLA    
+tosge00                   0061DF  LA    tosgea0                   0061E1  LA    
+tosgeax                   0061E3 RLA    tosicmp0                  0061E9  LA    
+tosicmp                   0061EB RLA    incax1                    006217 RLA    
+incax2                    00621E RLA    incax6                    006225 RLA    
+incax8                    00622A RLA    incax4                    00622F RLA    
+incaxy                    006231 RLA    incsp1                    00623A RLA    
+popax                     006241 RLA    incsp2                    006249 RLA    
+incsp3                    006257 RLA    incsp4                    00625C RLA    
+incsp5                    006261 RLA    incsp6                    006266 RLA    
+incsp8                    00626B RLA    ldauidx                   006270 RLA    
+ldaxi                     006279  LA    ldaxidx                   00627B RLA    
+ldax0sp                   006286  LA    ldaxysp                   006288 RLA    
+leaa0sp                   00628F RLA    leaaxsp                   006291  LA    
+leave00                   00629B  LA    leave0                    00629D  LA    
+leavey00                  0062A1  LA    leavey0                   0062A3  LA    
+leavey                    0062A5  LA    leave                     0062A8 RLA    
+boolne                    0062B8 RLA    booleq                    0062BE RLA    
+boolle                    0062C5  LA    boollt                    0062C7  LA    
+boolgt                    0062CD  LA    boolge                    0062CF RLA    
+boolule                   0062D5 RLA    boolult                   0062D7 RLA    
+boolugt                   0062DD RLA    booluge                   0062DF  LA    
+_memcpy                   0062E4 RLA    memcpy_upwards            0062E7  LA    
+memcpy_getparams          00630D  LA    __bzero                   006320 RLA    
+_bzero                    006320  LA    _memset                   006328 RLA    
+tosmulax                  00637D RLA    tosumulax                 00637D  LA    
+tosmula0                  0063C2  LA    tosumula0                 0063C2  LA    
+mul8x16                   0063C4 RLA    mul8x16a                  0063CE RLA    
+mulax10                   0063FC RLA    tosne00                   006415  LA    
+tosnea0                   006417  LA    tosneax                   006419 RLA    
+_abs                      00641F  LA    negax                     006423 RLA    
+tosora0                   006431  LA    tosorax                   006433 RLA    
+popptr1                   006443 RLA    pusha0sp                  006451  LA    
+pushaysp                  006453  LA    pusha                     006455 RLA    
+push0                     006467  LA    pusha0                    006469  LA    
+pushax                    00646B RLA    return0                   006481 RLA    
+tosult00                  006481  EA    tosaslax                  006485 RLA    
+tosshlax                  006485  LA    aslaxy                    00648C  LA    
+shlaxy                    00648C  LA    staspidx                  0064B8 RLA    
+stax0sp                   0064CE  LA    staxysp                   0064D0 RLA    
+staxspidx                 0064D9 RLA    _strchr                   0064F4 RLA    
+_strlen                   00651B RLA    _strncmp                  006531 RLA    
+_strncpy                  00656A RLA    tossuba0                  0065AE  LA    
+tossubax                  0065B0 RLA    subeq0sp                  0065C3  LA    
+subeqysp                  0065C5 RLA    subysp                    0065D8 RLA    
+tosugt00                  0065E5  LA    tosugta0                  0065E7  LA    
+tosugtax                  0065E9 RLA    tosule00                  0065EF  LA    
+tosulea0                  0065F1  LA    tosuleax                  0065F3 RLA    
+tosulta0                  0065F9  LA    tosultax                  0065FB RLA    
+zerobss                   006601 RLA    _http_http                0068BB RLA    
+_http_200                 0068C3 RLA    _http_301                 0068C8 RLA    
+_http_302                 0068CD RLA    _http_get                 0068D2 RLA    
+_http_10                  0068D7 RLA    _http_11                  0068E0 RLA    
+_http_content_type        0068E9 RLA    _http_texthtml            0068F8  LA    
+_http_location            006902 RLA    _http_host                00690D RLA    
+_http_crnl                006914 RLA    _http_index_html          006917  LA    
+_http_404_html            006923  LA    _http_content_type_html   00692D  LA    
+_http_content_type_css    006949  LA    _http_content_type_text   006964  LA    
+_http_content_type_png    006980  LA    _http_content_type_gif    00699C  LA    
+_http_content_type_jpg    0069B8  LA    _http_content_type_binary 0069D5  LA    
+_http_html                006A00  LA    _http_shtml               006A06  LA    
+_http_htm                 006A0D  LA    _http_css                 006A12  LA    
+_http_png                 006A17  LA    _http_gif                 006A1C  LA    
+_http_jpg                 006A21  LA    _http_text                006A26  LA    
+_http_txt                 006A2C  LA    _http_user_agent_fields   006A31 RLA    
+__DESTRUCTOR_TABLE__      006A7E RLA    _uip_ethaddr              006A84 RLA    
+__argc                    006A8A  LA    __argv                    006A8C  LA    
+condes                    006A8E  LA    jmpvec                    006AB3 RLA    
+__BSS_LOAD__              006AD2  LA    __BSS_RUN__               006AD2 RLA    
+__ONCE_LOAD__             006AD2  LA    __ONCE_RUN__              006AD2 RLA    
+initlib                   006AD2 RLA    __CONSTRUCTOR_TABLE__     006AF8 RLA    
+__MAIN_LAST__             006AF8  LA    _uip_buf                  006B48 RLA    
+_uip_appdata              006CEE RLA    _uip_len                  006CF0 RLA    
+_uip_conn                 006CF2 RLA    _uip_conns                006CF4 RLA    
+_uip_acc32                00AD2C  LA    _uip_stat                 00AD30  LA    
+_uip_flags                00AD5C RLA    _uip_hostaddr             00AD5D RLA    
+_uip_netmask              00AD61 RLA    _uip_draddr               00AD65 RLA    
+_uip_sappdata             00AD69  LA    _uip_slen                 00AD6B  LA    
+_uip_listenports          00AD6D  LA    __MAIN_SIZE__             00C7F3 REA    
+__HIMEM__                 00D000 REA    CINT                      00FF81  LA    
+IOINIT                    00FF84  LA    RAMTAS                    00FF87  LA    
+RESTOR                    00FF8A  LA    VECTOR                    00FF8D  LA    
+SETMSG                    00FF90  LA    SECOND                    00FF93  LA    
+TKSA                      00FF96  LA    MEMTOP                    00FF99  LA    
+MEMBOT                    00FF9C  LA    SCNKEY                    00FF9F  LA    
+SETTMO                    00FFA2  LA    ACPTR                     00FFA5  LA    
+CIOUT                     00FFA8  LA    UNTLK                     00FFAB  LA    
+UNLSN                     00FFAE  LA    LISTEN                    00FFB1  LA    
+TALK                      00FFB4  LA    READST                    00FFB7  LA    
+SETLFS                    00FFBA  LA    SETNAM                    00FFBD  LA    
+OPEN                      00FFC0  LA    CLOSE                     00FFC3  LA    
+CHKIN                     00FFC6  LA    CKOUT                     00FFC9  LA    
+CLRCH                     00FFCC  LA    BASIN                     00FFCF  LA    
+BSOUT                     00FFD2 RLA    LOAD                      00FFD5  LA    
+SAVE                      00FFD8  LA    SETTIM                    00FFDB  LA    
+RDTIM                     00FFDE  LA    STOP                      00FFE1  LA    
+GETIN                     00FFE4  LA    CLALL                     00FFE7  LA    
+UDTIM                     00FFEA  LA    SCREEN                    00FFED  LA    
+IOBASE                    00FFF3  LA    
+
+
+Imports list:
+-------------
+ACPTR (kernal.o):
+BASIN (kernal.o):
+BSOUT (kernal.o):
+    crt0.o                    c64/crt0.s(10)
+CHKIN (kernal.o):
+CINT (kernal.o):
+CIOUT (kernal.o):
+CKOUT (kernal.o):
+CLALL (kernal.o):
+CLOSE (kernal.o):
+CLRCH (kernal.o):
+GETIN (kernal.o):
+IOBASE (kernal.o):
+IOINIT (kernal.o):
+LISTEN (kernal.o):
+LOAD (kernal.o):
+MEMBOT (kernal.o):
+MEMTOP (kernal.o):
+OPEN (kernal.o):
+RAMTAS (kernal.o):
+RDTIM (kernal.o):
+READST (kernal.o):
+RESTOR (kernal.o):
+SAVE (kernal.o):
+SCNKEY (kernal.o):
+SCREEN (kernal.o):
+SECOND (kernal.o):
+SETLFS (kernal.o):
+SETMSG (kernal.o):
+SETNAM (kernal.o):
+SETTIM (kernal.o):
+SETTMO (kernal.o):
+ST (status.o):
+    crt0.o                    c64/crt0.s(13)
+STOP (kernal.o):
+TALK (kernal.o):
+TKSA (kernal.o):
+UDTIM (kernal.o):
+UNLSN (kernal.o):
+UNTLK (kernal.o):
+VECTOR (kernal.o):
+__BSS_LOAD__ ([linker generated]):
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__EXEHDR__ (exehdr.o):
+    [linker generated]        /home/paul/Projects/mega65/cc65/cfg/c64.cfg(6)
+__HEADER_FILEOFFS__ ([linker generated]):
+__HEADER_LAST__ ([linker generated]):
+    [linker generated]        /home/paul/Projects/mega65/cc65/cfg/c64.cfg(14)
+    [linker generated]        /home/paul/Projects/mega65/cc65/cfg/c64.cfg(14)
+__HEADER_SIZE__ ([linker generated]):
+__HEADER_START__ ([linker generated]):
+__HIMEM__ ([linker generated]):
+    [linker generated]        /home/paul/Projects/mega65/cc65/cfg/c64.cfg(15)
+    [linker generated]        /home/paul/Projects/mega65/cc65/cfg/c64.cfg(14)
+__LOADADDR__ (loadaddr.o):
+    [linker generated]        /home/paul/Projects/mega65/cc65/cfg/c64.cfg(5)
+__MAIN_FILEOFFS__ ([linker generated]):
+__MAIN_LAST__ ([linker generated]):
+__MAIN_SIZE__ ([linker generated]):
+    crt0.o                    c64/crt0.s(11)
+__MAIN_START__ ([linker generated]):
+    crt0.o                    c64/crt0.s(11)
+__ONCE_LOAD__ ([linker generated]):
+__ONCE_RUN__ ([linker generated]):
+    [linker generated]        /home/paul/Projects/mega65/cc65/cfg/c64.cfg(15)
+    [linker generated]        /home/paul/Projects/mega65/cc65/cfg/c64.cfg(15)
+__ONCE_SIZE__ ([linker generated]):
+__STACKSIZE__ ([linker generated]):
+    [linker generated]        /home/paul/Projects/mega65/cc65/cfg/c64.cfg(15)
+__STARTUP__ (crt0.o):
+    main.o                    main.s(13)
+__ZP_FILEOFFS__ ([linker generated]):
+__ZP_LAST__ ([linker generated]):
+__ZP_SIZE__ ([linker generated]):
+__ZP_START__ ([linker generated]):
+__argc (callmain.o):
+__argv (callmain.o):
+__bzero (memset.o):
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+_abs (negabs.o):
+_bzero (memset.o):
+_clock_time (clock-arch.o):
+    timer.o                   ../uip/timer.s(13)
+_exit (crt0.o):
+_htons (uip.o):
+    webclient.o               ../apps/webclient/webclient.s(40)
+    main.o                    main.s(22)
+_http_10 (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(18)
+_http_11 (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(19)
+_http_200 (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(14)
+_http_301 (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(15)
+_http_302 (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(16)
+_http_404_html (webclient-strings.o):
+_http_content_type (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(20)
+_http_content_type_binary (webclient-strings.o):
+_http_content_type_css (webclient-strings.o):
+_http_content_type_gif (webclient-strings.o):
+_http_content_type_html (webclient-strings.o):
+_http_content_type_jpg (webclient-strings.o):
+_http_content_type_png (webclient-strings.o):
+_http_content_type_text (webclient-strings.o):
+_http_crnl (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(23)
+_http_css (webclient-strings.o):
+_http_get (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(17)
+_http_gif (webclient-strings.o):
+_http_host (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(22)
+_http_htm (webclient-strings.o):
+_http_html (webclient-strings.o):
+_http_http (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(13)
+_http_index_html (webclient-strings.o):
+_http_jpg (webclient-strings.o):
+_http_location (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(21)
+_http_png (webclient-strings.o):
+_http_shtml (webclient-strings.o):
+_http_text (webclient-strings.o):
+_http_texthtml (webclient-strings.o):
+_http_txt (webclient-strings.o):
+_http_user_agent_fields (webclient-strings.o):
+    webclient.o               ../apps/webclient/webclient.s(24)
+_main (main.o):
+    callmain.o                runtime/callmain.s(11)
+_mega65ethdev_init (mega65ethdev.o):
+    main.o                    main.s(33)
+_mega65ethdev_read (mega65ethdev.o):
+    main.o                    main.s(34)
+_mega65ethdev_send (mega65ethdev.o):
+    main.o                    main.s(35)
+_memcpy (memcpy.o):
+    uip_arp.o                 ../uip/uip_arp.s(24)
+    uip.o                     ../uip/uip.s(39)
+    uip-neighbor.o            ../uip/uip-neighbor.s(18)
+    uip-fw.o                  ../uip/uip-fw.s(25)
+    psock.o                   ../uip/psock.s(14)
+_memset (memset.o):
+    uip_arp.o                 ../uip/uip_arp.s(25)
+_printf (main.o):
+    psock.o                   ../uip/psock.s(13)
+_psock_datalen (psock.o):
+_psock_generator_send (psock.o):
+_psock_init (psock.o):
+_psock_newdata (psock.o):
+_psock_readbuf (psock.o):
+_psock_readto (psock.o):
+_psock_send (psock.o):
+_resolv_found (main.o):
+_smtp_done (main.o):
+_strchr (strchr.o):
+    webclient.o               ../apps/webclient/webclient.s(46)
+_strlen (strlen.o):
+    webclient.o               ../apps/webclient/webclient.s(47)
+_strncmp (strncmp.o):
+    webclient.o               ../apps/webclient/webclient.s(48)
+_strncpy (strncpy.o):
+    webclient.o               ../apps/webclient/webclient.s(49)
+_timer_expired (timer.o):
+    main.o                    main.s(38)
+_timer_reset (timer.o):
+    main.o                    main.s(37)
+_timer_restart (timer.o):
+_timer_set (timer.o):
+    main.o                    main.s(36)
+_uip_acc32 (uip.o):
+_uip_add32 (uip.o):
+_uip_appdata (uip.o):
+    webclient.o               ../apps/webclient/webclient.s(41)
+    uip_arp.o                 ../uip/uip_arp.s(14)
+    uip-fw.o                  ../uip/uip-fw.s(14)
+    psock.o                   ../uip/psock.s(23)
+_uip_arp_arpin (uip_arp.o):
+    main.o                    main.s(30)
+_uip_arp_init (uip_arp.o):
+_uip_arp_out (uip_arp.o):
+    main.o                    main.s(31)
+_uip_arp_timer (uip_arp.o):
+    main.o                    main.s(32)
+_uip_buf (uip.o):
+    uip_arp.o                 ../uip/uip_arp.s(13)
+    uip-fw.o                  ../uip/uip-fw.s(13)
+    main.o                    main.s(21)
+_uip_chksum (uip.o):
+    uip-fw.o                  ../uip/uip-fw.s(17)
+_uip_conn (uip.o):
+    webclient.o               ../apps/webclient/webclient.s(43)
+    psock.o                   ../uip/psock.s(25)
+    main.o                    main.s(24)
+_uip_connect (uip.o):
+    webclient.o               ../apps/webclient/webclient.s(38)
+_uip_conns (uip.o):
+    main.o                    main.s(25)
+_uip_draddr (uip.o):
+    uip_arp.o                 ../uip/uip_arp.s(18)
+    main.o                    main.s(29)
+_uip_ethaddr (uip.o):
+    uip_arp.o                 ../uip/uip_arp.s(19)
+_uip_flags (uip.o):
+    webclient.o               ../apps/webclient/webclient.s(44)
+    psock.o                   ../uip/psock.s(26)
+_uip_fw_default (uip-fw.o):
+_uip_fw_forward (uip-fw.o):
+_uip_fw_init (uip-fw.o):
+_uip_fw_output (uip-fw.o):
+_uip_fw_periodic (uip-fw.o):
+_uip_fw_register (uip-fw.o):
+_uip_hostaddr (uip.o):
+    uip_arp.o                 ../uip/uip_arp.s(16)
+    uip-fw.o                  ../uip/uip-fw.s(16)
+    main.o                    main.s(27)
+_uip_init (uip.o):
+    main.o                    main.s(20)
+_uip_ipchksum (uip.o):
+    uip-fw.o                  ../uip/uip-fw.s(18)
+_uip_len (uip.o):
+    webclient.o               ../apps/webclient/webclient.s(42)
+    uip_arp.o                 ../uip/uip_arp.s(15)
+    uip-fw.o                  ../uip/uip-fw.s(15)
+    psock.o                   ../uip/psock.s(24)
+    main.o                    main.s(23)
+_uip_listen (uip.o):
+_uip_listenports (uip.o):
+_uip_log (main.o):
+    uip.o                     ../uip/uip.s(14)
+_uip_neighbor_add (uip-neighbor.o):
+_uip_neighbor_init (uip-neighbor.o):
+_uip_neighbor_lookup (uip-neighbor.o):
+_uip_neighbor_periodic (uip-neighbor.o):
+_uip_neighbor_update (uip-neighbor.o):
+_uip_netmask (uip.o):
+    uip_arp.o                 ../uip/uip_arp.s(17)
+    main.o                    main.s(28)
+_uip_process (uip.o):
+    main.o                    main.s(26)
+_uip_sappdata (uip.o):
+_uip_send (uip.o):
+    webclient.o               ../apps/webclient/webclient.s(39)
+    psock.o                   ../uip/psock.s(22)
+_uip_setipid (uip.o):
+_uip_slen (uip.o):
+_uip_stat (uip.o):
+_uip_tcpchksum (uip.o):
+_uip_udpchksum (uip.o):
+_uip_unlisten (uip.o):
+_uiplib_ipaddrconv (uiplib.o):
+    webclient.o               ../apps/webclient/webclient.s(45)
+_webclient_aborted (main.o):
+    webclient.o               ../apps/webclient/webclient.s(28)
+_webclient_appcall (webclient.o):
+    uip.o                     ../uip/uip.s(13)
+_webclient_close (webclient.o):
+_webclient_closed (main.o):
+    webclient.o               ../apps/webclient/webclient.s(29)
+_webclient_connected (main.o):
+    webclient.o               ../apps/webclient/webclient.s(26)
+_webclient_datahandler (main.o):
+    webclient.o               ../apps/webclient/webclient.s(25)
+_webclient_filename (webclient.o):
+_webclient_get (webclient.o):
+_webclient_hostname (webclient.o):
+_webclient_init (webclient.o):
+_webclient_mimetype (webclient.o):
+_webclient_port (webclient.o):
+_webclient_timedout (main.o):
+    webclient.o               ../apps/webclient/webclient.s(27)
+addeq0sp (addeqsp.o):
+addeqysp (addeqsp.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+addysp (addysp.o):
+    leave.o                   runtime/leave.s(14)
+    incsp8.o                  runtime/incsp8.s(8)
+    incsp6.o                  runtime/incsp6.s(8)
+    incsp5.o                  runtime/incsp5.s(8)
+    incsp4.o                  runtime/incsp4.s(8)
+    incsp3.o                  runtime/incsp3.s(8)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    main.o                    main.s(565)
+addysp1 (addysp.o):
+    sub.o                     runtime/sub.s(8)
+    or.o                      runtime/or.s(9)
+    and.o                     runtime/and.s(8)
+aslax1 (aslax1.o):
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+aslax2 (aslax2.o):
+    uip.o                     ../uip/uip.s(4556)
+aslaxy (shl.o):
+asrax2 (asrax2.o):
+    uip.o                     ../uip/uip.s(4556)
+asrax3 (asrax3.o):
+    uip.o                     ../uip/uip.s(4556)
+asrax4 (asrax4.o):
+    uip.o                     ../uip/uip.s(4556)
+bnega (bneg.o):
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+bnegax (bneg.o):
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+booleq (makebool.o):
+    eq.o                      runtime/eq.s(8)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+boolge (makebool.o):
+    ge.o                      runtime/ge.s(8)
+boolgt (makebool.o):
+boolle (makebool.o):
+boollt (makebool.o):
+boolne (makebool.o):
+    ne.o                      runtime/ne.s(8)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+booluge (makebool.o):
+boolugt (makebool.o):
+    ugt.o                     runtime/ugt.s(8)
+boolule (makebool.o):
+    ule.o                     runtime/ule.s(8)
+boolult (makebool.o):
+    ult.o                     runtime/ult.s(8)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+callax (call.o):
+    uip-fw.o                  ../uip/uip-fw.s(851)
+callmain (callmain.o):
+    crt0.o                    c64/crt0.s(9)
+complax (compl.o):
+    uip.o                     ../uip/uip.s(4556)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+condes (condes.o):
+decax1 (decax1.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+decax5 (decax5.o):
+    uip.o                     ../uip/uip.s(4556)
+decax7 (decax7.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+decaxy (decaxy.o):
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+decsp1 (decsp1.o):
+    uip.o                     ../uip/uip.s(4556)
+    psock.o                   ../uip/psock.s(1403)
+decsp2 (decsp2.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    main.o                    main.s(565)
+decsp4 (decsp4.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+decsp5 (decsp5.o):
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+decsp6 (decsp6.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+donelib (condes.o):
+    crt0.o                    c64/crt0.s(8)
+enter (enter.o):
+    main.o                    main.s(565)
+incax1 (incax1.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+incax2 (incax2.o):
+    uip-fw.o                  ../uip/uip-fw.s(851)
+incax4 (incaxy.o):
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+incax6 (incax6.o):
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+incax8 (incax8.o):
+    uip.o                     ../uip/uip.s(4556)
+incaxy (incaxy.o):
+    incax8.o                  runtime/incax8.s(8)
+    incax6.o                  runtime/incax6.s(8)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+incsp1 (incsp1.o):
+    uip.o                     ../uip/uip.s(4556)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+incsp2 (incsp2.o):
+    staxspi.o                 runtime/staxspi.s(9)
+    staspidx.o                runtime/staspidx.s(8)
+    popptr1.o                 runtime/popptr1.s(8)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+incsp3 (incsp3.o):
+    uip.o                     ../uip/uip.s(4556)
+    psock.o                   ../uip/psock.s(1403)
+incsp4 (incsp4.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    timer.o                   ../uip/timer.s(128)
+    main.o                    main.s(565)
+incsp5 (incsp5.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+incsp6 (incsp6.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+incsp8 (incsp8.o):
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip.o                     ../uip/uip.s(4556)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+initlib (condes.o):
+    crt0.o                    c64/crt0.s(8)
+jmpvec (jmpvec.o):
+    psock.o                   ../uip/psock.s(1403)
+ldauidx (ldaui.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+ldax0sp (ldaxsp.o):
+ldaxi (ldaxi.o):
+ldaxidx (ldaxi.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+ldaxysp (ldaxsp.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+leaa0sp (leaaxsp.o):
+    main.o                    main.s(565)
+leaaxsp (leaaxsp.o):
+leave (leave.o):
+    main.o                    main.s(565)
+leave0 (leave.o):
+leave00 (leave.o):
+leavey (leave.o):
+leavey0 (leave.o):
+leavey00 (leave.o):
+memcpy_getparams (memcpy.o):
+memcpy_upwards (memcpy.o):
+mul8x16 (mul8.o):
+    mul.o                     runtime/mul.s(8)
+mul8x16a (mul8.o):
+    mul.o                     runtime/mul.s(8)
+mulax10 (mulax10.o):
+    uiplib.o                  ../uip/uiplib.s(178)
+negax (negabs.o):
+    uip.o                     ../uip/uip.s(4556)
+popax (incsp2.o):
+    strncpy.o                 common/strncpy.s(8)
+    strncmp.o                 common/strncmp.s(8)
+    strchr.o                  common/strchr.s(9)
+    shl.o                     runtime/shl.s(15)
+    memset.o                  common/memset.s(19)
+    memcpy.o                  common/memcpy.s(14)
+popptr1 (popptr1.o):
+    strncpy.o                 common/strncpy.s(8)
+    strncmp.o                 common/strncmp.s(8)
+    mul8.o                    runtime/mul8.s(9)
+    mul.o                     runtime/mul.s(9)
+    memcpy.o                  common/memcpy.s(14)
+ptr1 (zeropage.o):
+    zerobss.o                 common/zerobss.s(9)
+    strncpy.o                 common/strncpy.s(9)
+    strncmp.o                 common/strncmp.s(9)
+    strchr.o                  common/strchr.s(10)
+    staxspi.o                 runtime/staxspi.s(10)
+    staspidx.o                runtime/staspidx.s(9)
+    popptr1.o                 runtime/popptr1.s(9)
+    mulax10.o                 runtime/mulax10.s(9)
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+    ldaxi.o                   runtime/ldaxi.s(8)
+    ldaui.o                   runtime/ldaui.s(8)
+    call.o                    runtime/call.s(8)
+    uip.o                     ../uip/uip.s(11)
+ptr2 (zeropage.o):
+    strncpy.o                 common/strncpy.s(9)
+    strncmp.o                 common/strncmp.s(9)
+    strlen.o                  common/strlen.s(12)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+ptr3 (zeropage.o):
+    strncmp.o                 common/strncmp.s(9)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+ptr4 (zeropage.o):
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+push0 (pushax.o):
+pusha (pusha.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+pusha0 (pushax.o):
+pusha0sp (pusha.o):
+pushax (pushax.o):
+    callmain.o                runtime/callmain.s(11)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+    main.o                    main.s(565)
+pushaysp (pusha.o):
+regbank (zeropage.o):
+regsave (zeropage.o):
+    webclient.o               ../apps/webclient/webclient.s(10)
+    uip.o                     ../uip/uip.s(10)
+    main.o                    main.s(10)
+return0 (return0.o):
+    ult.o                     runtime/ult.s(8)
+shlax1 (aslax1.o):
+shlax2 (aslax2.o):
+shlaxy (shl.o):
+sp (zeropage.o):
+    subysp.o                  runtime/subysp.s(9)
+    subeqsp.o                 runtime/subeqsp.s(8)
+    sub.o                     runtime/sub.s(9)
+    staxspi.o                 runtime/staxspi.s(10)
+    staxsp.o                  runtime/staxsp.s(8)
+    staspidx.o                runtime/staspidx.s(9)
+    pushax.o                  runtime/pushax.s(8)
+    pusha.o                   runtime/pusha.s(8)
+    popptr1.o                 runtime/popptr1.s(9)
+    or.o                      runtime/or.s(10)
+    memset.o                  common/memset.s(20)
+    memcpy.o                  common/memcpy.s(15)
+    leave.o                   runtime/leave.s(15)
+    leaaxsp.o                 runtime/leaaxsp.s(8)
+    ldaxsp.o                  runtime/ldaxsp.s(8)
+    incsp2.o                  runtime/incsp2.s(8)
+    incsp1.o                  runtime/incsp1.s(8)
+    icmp.o                    runtime/icmp.s(9)
+    enter.o                   runtime/enter.s(8)
+    decsp6.o                  runtime/decsp6.s(8)
+    decsp5.o                  runtime/decsp5.s(8)
+    decsp4.o                  runtime/decsp4.s(8)
+    decsp2.o                  runtime/decsp2.s(8)
+    decsp1.o                  runtime/decsp1.s(8)
+    crt0.o                    /home/paul/Projects/mega65/cc65/asminc/zeropage.inc(11)
+    and.o                     runtime/and.s(9)
+    addysp.o                  runtime/addysp.s(8)
+    addeqsp.o                 runtime/addeqsp.s(8)
+    add.o                     runtime/add.s(12)
+    webclient.o               ../apps/webclient/webclient.s(10)
+    uiplib.o                  ../uip/uiplib.s(10)
+    uip.o                     ../uip/uip.s(10)
+    uip-neighbor.o            ../uip/uip-neighbor.s(10)
+    psock.o                   ../uip/psock.s(10)
+    main.o                    main.s(10)
+sreg (zeropage.o):
+    icmp.o                    runtime/icmp.s(9)
+staspidx (staspidx.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+stax0sp (staxsp.o):
+staxspidx (staxspi.o):
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    timer.o                   ../uip/timer.s(128)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+staxysp (staxsp.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    main.o                    main.s(565)
+subeq0sp (subeqsp.o):
+subeqysp (subeqsp.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+subysp (subysp.o):
+    main.o                    main.s(565)
+tmp1 (zeropage.o):
+    strncpy.o                 common/strncpy.s(9)
+    strchr.o                  common/strchr.s(10)
+    staxspi.o                 runtime/staxspi.s(10)
+    staspidx.o                runtime/staspidx.s(9)
+    shl.o                     runtime/shl.s(16)
+    or.o                      runtime/or.s(10)
+    mul.o                     runtime/mul.s(10)
+    incaxy.o                  runtime/incaxy.s(8)
+    decaxy.o                  runtime/decaxy.s(8)
+    asrax4.o                  runtime/asrax4.s(9)
+    asrax3.o                  runtime/asrax3.s(9)
+    asrax2.o                  runtime/asrax2.s(8)
+    aslax2.o                  runtime/aslax2.s(8)
+    aslax1.o                  runtime/aslax1.s(8)
+    add.o                     runtime/add.s(12)
+    webclient.o               ../apps/webclient/webclient.s(11)
+    uip.o                     ../uip/uip.s(11)
+    psock.o                   ../uip/psock.s(11)
+    main.o                    main.s(11)
+tmp2 (zeropage.o):
+    strncpy.o                 common/strncpy.s(9)
+tmp3 (zeropage.o):
+    strncpy.o                 common/strncpy.s(9)
+tmp4 (zeropage.o):
+tosadda0 (add.o):
+tosaddax (add.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uiplib.o                  ../uip/uiplib.s(178)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    timer.o                   ../uip/timer.s(128)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+tosanda0 (and.o):
+tosandax (and.o):
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+tosaslax (shl.o):
+    uip.o                     ../uip/uip.s(4556)
+toseq00 (eq.o):
+toseqa0 (eq.o):
+toseqax (eq.o):
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    main.o                    main.s(565)
+tosge00 (ge.o):
+tosgea0 (ge.o):
+tosgeax (ge.o):
+    timer.o                   ../uip/timer.s(128)
+tosicmp (icmp.o):
+    ult.o                     runtime/ult.s(8)
+    ule.o                     runtime/ule.s(8)
+    ugt.o                     runtime/ugt.s(8)
+    ne.o                      runtime/ne.s(8)
+    ge.o                      runtime/ge.s(8)
+    eq.o                      runtime/eq.s(8)
+tosicmp0 (icmp.o):
+tosmula0 (mul8.o):
+tosmulax (mul.o):
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    main.o                    main.s(565)
+tosne00 (ne.o):
+tosnea0 (ne.o):
+tosneax (ne.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+tosora0 (or.o):
+tosorax (or.o):
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+tosshlax (shl.o):
+tossuba0 (sub.o):
+tossubax (sub.o):
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    timer.o                   ../uip/timer.s(128)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+tosugt00 (ugt.o):
+tosugta0 (ugt.o):
+tosugtax (ugt.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip_arp.o                 ../uip/uip_arp.s(979)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-neighbor.o            ../uip/uip-neighbor.s(583)
+    psock.o                   ../uip/psock.s(1403)
+    psock.o                   ../uip/psock.s(1403)
+tosule00 (ule.o):
+tosulea0 (ule.o):
+tosuleax (ule.o):
+    uip.o                     ../uip/uip.s(4556)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+tosult00 (ult.o):
+tosulta0 (ult.o):
+tosultax (ult.o):
+    webclient.o               ../apps/webclient/webclient.s(1356)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip.o                     ../uip/uip.s(4556)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    uip-fw.o                  ../uip/uip-fw.s(851)
+    psock.o                   ../uip/psock.s(1403)
+tosumula0 (mul8.o):
+tosumulax (mul.o):
+zerobss (zerobss.o):
+    crt0.o                    c64/crt0.s(9)
+

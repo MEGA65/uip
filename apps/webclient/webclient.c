@@ -146,7 +146,8 @@ webclient_get(char *host, u16_t port, char *file)
   /* First check if the host is an IP address. */
   ipaddr = &addr;
   if(uiplib_ipaddrconv(host, (unsigned char *)addr) == 0) {
-    ipaddr = (uip_ipaddr_t *)resolv_lookup(host);
+// PGS - Can't get resolv.c to compile in. I have no idea how the UNIX target is managing it
+//    ipaddr = (uip_ipaddr_t *)resolv_lookup(host);
     
     if(ipaddr == NULL) {
       return 0;
@@ -426,9 +427,12 @@ webclient_appcall(void)
       /* Send NULL data to signal EOF. */
       webclient_datahandler(NULL, 0);
     } else {
+// PGS can't get resolv.c to compile with webclient
+#if 0
       if(resolv_lookup(s.host) == NULL) {
 	resolv_query(s.host);
       }
+#endif
       webclient_get(s.host, s.port, s.file);
     }
   }
